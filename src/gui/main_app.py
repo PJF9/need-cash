@@ -14,6 +14,7 @@ from PyQt5.QtWidgets import (
     QStackedWidget,
     QHBoxLayout
 )
+from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QPropertyAnimation
 
 
@@ -58,6 +59,9 @@ class NeedCashApp(QWidget):
         self.setWindowTitle('NeedCash')
         self.setGeometry(100, 100, 1100, 800)
         self.setStyleSheet('background-color: #ffffff;')
+
+        # Set the window icon
+        self.setWindowIcon(QIcon('src/gui/assets/needcash_icon.png'))
 
         # Create a layout that will hold the changing content
         self.layout = QHBoxLayout()

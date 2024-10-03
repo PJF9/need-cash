@@ -16,6 +16,7 @@ from src.gui.utils.fonts import (
 )
 
 from PyQt5.QtWidgets import QWidget, QFrame, QVBoxLayout, QLineEdit
+from PyQt5.QtGui import QIcon
 
 import hashlib
 import json
@@ -40,6 +41,9 @@ class AuthenticationApp(QWidget):
         self.setWindowTitle('NeedCash')
         self.setGeometry(100, 100, 1100, 800)
         self.setStyleSheet('background-color: #ffffff;')
+
+        # Set the window icon
+        self.setWindowIcon(QIcon('src/gui/assets/needcash_icon.png'))
 
         # The screen layout
         self.layout = QVBoxLayout()
