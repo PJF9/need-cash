@@ -22,26 +22,26 @@
 
 ## Project Structure
 
-NEEDCASH/
-├── env/                  # Virtual environment (optional)
-├── src/                     
-│   ├── flow.py           # Flow class (cashflow data model)
-│   ├── ledger.py         # Ledger class (ledger data model)
-│   ├── gui/                 
-│   │   ├── assets/...    # Logo and icons for the widgets
-│   │   ├── screens/...   # The screens of the application
-│   │   ├── utils/...     # The custom fonts and style sheets for the widgets
-│   │   ├── widgets/...   # The custom widgets used in the application
-│   │   ├── main_app.py
-│   │   ├── authenticaton.py
-│   │   ├── app_manager.py   
-│   └── utils/               
-│       ├── balance.py
-│       └── save.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── app.py    # The need-cash application
+NEEDCASH/<br>
+├── env/                  # Virtual environment (optional)<br>
+├── src/<br>                     
+│   ├── flow.py           # Flow class (cashflow data model)<br>
+│   ├── ledger.py         # Ledger class (ledger data model)<br>
+│   ├── gui/<br>                 
+│   │   ├── assets/...    # Logo and icons for the widgets<br>
+│   │   ├── screens/...   # The screens of the application<br>
+│   │   ├── utils/...     # The custom fonts and style sheets for the widgets<br>
+│   │   ├── widgets/...   # The custom widgets used in the application<br>
+│   │   ├── main_app.py<br>
+│   │   ├── authenticaton.py<br>
+│   │   ├── app_manager.py<br>
+│   └── utils/<br>
+│       ├── balance.py<br>
+│       └── save.py<br>
+├── requirements.txt<br>
+├── .gitignore<br>
+├── README.md<br>
+└── app.py    # The need-cash application<br>
 
 ## Installation
 
