@@ -84,7 +84,7 @@ Make sure you have the following installed:
 * **Calculating Future Balance**: You can project the future balance up to a given date using the application's right arrow button.
 * **Saving and Loading**: After adding, executing, or deleting a flow, the ledger is saved automatically.
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
