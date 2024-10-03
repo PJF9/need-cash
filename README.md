@@ -24,20 +24,20 @@
 
 NEEDCASH/<br>
 ├── env/                  # Virtual environment (optional)<br>
-├── src/<br>                     
-│   &nbsp;&nbsp;&nbsp;├── flow.py           # Flow class (cashflow data model)<br>
-│   ├── ledger.py         # Ledger class (ledger data model)<br>
-│   ├── gui/<br>                 
-│   │   ├── assets/...    # Logo and icons for the widgets<br>
-│   │   ├── screens/...   # The screens of the application<br>
-│   │   ├── utils/...     # The custom fonts and style sheets for the widgets<br>
-│   │   ├── widgets/...   # The custom widgets used in the application<br>
-│   │   ├── main_app.py<br>
-│   │   ├── authenticaton.py<br>
-│   │   ├── app_manager.py<br>
-│   └── utils/<br>
-│       ├── balance.py<br>
-│       └── save.py<br>
+├── src/<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── flow.py           # Flow class (cashflow data model)<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ledger.py         # Ledger class (ledger data model)<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── gui/<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── assets/...    # Logo and icons for the widgets<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── screens/...   # The screens of the application<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── utils/...     # The custom fonts and style sheets for the widgets<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── widgets/...   # The custom widgets used in the application<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── main_app.py<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── authenticaton.py<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── app_manager.py<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── utils/<br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── balance.py<br>
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── save.py<br>
 ├── requirements.txt<br>
 ├── .gitignore<br>
 ├── README.md<br>
