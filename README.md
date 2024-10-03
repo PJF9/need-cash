@@ -23,15 +23,15 @@
 ## Project Structure
 
 NEEDCASH/<br>
-├── env/                  # Virtual environment (optional)<br>
+├── env/&nbsp;&nbsp;&nbsp;# Virtual environment (optional)<br>
 ├── src/<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── flow.py           # Flow class (cashflow data model)<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ledger.py         # Ledger class (ledger data model)<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── flow.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Flow class (cashflow data model)<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ledger.py&nbsp;&nbsp;&nbsp;&nbsp;# Ledger class (ledger data model)<br>
 │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── gui/<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── assets/...    # Logo and icons for the widgets<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── screens/...   # The screens of the application<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── utils/...     # The custom fonts and style sheets for the widgets<br>
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── widgets/...   # The custom widgets used in the application<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── assets/...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Logo and icons for the widgets<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── screens/...&nbsp;&nbsp;&nbsp;&nbsp;# The screens of the application<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── utils/...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# The custom fonts and style sheets for the widgets<br>
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── widgets/...&nbsp;&nbsp;&nbsp;# The custom widgets used in the application<br>
 │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── main_app.py<br>
 │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── authenticaton.py<br>
 │   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── app_manager.py<br>
@@ -41,7 +41,7 @@ NEEDCASH/<br>
 ├── requirements.txt<br>
 ├── .gitignore<br>
 ├── README.md<br>
-└── app.py    # The need-cash application<br>
+└── app.py    &nbsp;&nbsp;&nbsp;# The need-cash application<br>
 
 ## Installation
 
