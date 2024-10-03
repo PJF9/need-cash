@@ -22,7 +22,7 @@
 
 ## Project Structure
 
-NEEDCASH/ \n├── env/ # Virtual environment (optional) \n├── src/ │ ├── flow.py # Flow class (cashflow data model) │ ├── ledger.py # Ledger class (ledger data model) │ ├── gui/ │ │ ├── main.py # Main entry point for the GUI │ │ ├── main_window.py # Main window setup (QMainWindow) │ │ ├── ledger_view.py # GUI to display ledger and flows │ │ └── flow_view.py # GUI for adding/editing flows │ └── utils/ │ ├── init.py │ ├── balance.py # Balance calculations (e.g., projections, executed balance) │ └── save.py # Utility functions for saving/loading the ledger ├── requirements.txt # Python dependencies (PyQt5, etc.) └── README.md # Project description and documentation
+NEEDCASH/ <br>├── env/ # Virtual environment (optional) <br>├── src/ │ ├── flow.py # Flow class (cashflow data model) │ ├── ledger.py # Ledger class (ledger data model) │ ├── gui/ │ │ ├── main.py # Main entry point for the GUI │ │ ├── main_window.py # Main window setup (QMainWindow) │ │ ├── ledger_view.py # GUI to display ledger and flows │ │ └── flow_view.py # GUI for adding/editing flows │ └── utils/ │ ├── init.py │ ├── balance.py # Balance calculations (e.g., projections, executed balance) │ └── save.py # Utility functions for saving/loading the ledger ├── requirements.txt # Python dependencies (PyQt5, etc.) └── README.md # Project description and documentation
 
 ## Installation
 
