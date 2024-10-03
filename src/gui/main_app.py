@@ -59,6 +59,7 @@ class NeedCashApp(QWidget):
         self.setWindowTitle('NeedCash')
         self.setGeometry(100, 100, 1100, 800)
         self.setStyleSheet('background-color: #ffffff;')
+        self.setFixedSize(1100, 800)
 
         # Set the window icon
         self.setWindowIcon(QIcon('src/gui/assets/needcash_icon.png'))
