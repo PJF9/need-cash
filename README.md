@@ -25,7 +25,7 @@
 NEEDCASH/<br>
 ├── env/                  # Virtual environment (optional)<br>
 ├── src/<br>                     
-│   ├── flow.py           # Flow class (cashflow data model)<br>
+│   &nbsp;&nbsp;&nbsp;├── flow.py           # Flow class (cashflow data model)<br>
 │   ├── ledger.py         # Ledger class (ledger data model)<br>
 │   ├── gui/<br>                 
 │   │   ├── assets/...    # Logo and icons for the widgets<br>
