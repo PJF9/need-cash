@@ -209,22 +209,27 @@ class AddFlowGetCommentScreen(QWidget):
         # Get the comments from the input box
         comments: str = self.input_box.text()
 
-        # Initializing the flow that will be added to the ledger
-        flow = Flow(
-            size=self.parent.manager._flow.size,
-            category=self.parent.manager._flow.category,
-            time_executed=self.parent.manager._flow.time_executed,
-            recurrent=self.parent.manager._flow.recurrent,
-            comments=comments
-        )
-
-        if flow.time_executed.date() <= datetime.now().date():
+        if self.parent.manager._flow.time_executed.date() <= datetime.now().date():
             # Executed flow
-            self.parent.manager.ledger.add_flow(flow, is_proj=False)
+            self.parent.manager.ledger.add_flow(
+                Flow(
+                    size=self.parent.manager._flow.size,
+                    category=self.parent.manager._flow.category,
+                    time_executed=self.parent.manager._flow.time_executed,
+                    recurrent=self.parent.manager._flow.recurrent,
+                    comments=comments
+                ), is_proj=False)
         
-        if flow.time_executed.date() > datetime.now().date() or flow.recurrent != 0:
+        if self.parent.manager._flow.time_executed.date() > datetime.now().date() or self.parent.manager._flow.recurrent != 0:
             # Projected flow
-            self.parent.manager.ledger.add_flow(flow.copy(), is_proj=True)
+            self.parent.manager.ledger.add_flow(
+                Flow(
+                    size=self.parent.manager._flow.size,
+                    category=self.parent.manager._flow.category,
+                    time_executed=self.parent.manager._flow.time_executed,
+                    recurrent=self.parent.manager._flow.recurrent,
+                    comments=comments
+                ), is_proj=True)
 
         # Reset the app manager's flow
         self.parent.manager._flow.clear()
