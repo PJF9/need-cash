@@ -54,8 +54,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/needcash.git
-   cd needcash
+   git clone https://github.com/PJF9/need-cash.git
+   cd need-cash
    ```
 
 2. (Optional) Create a virtual environment to isolate dependencies:
