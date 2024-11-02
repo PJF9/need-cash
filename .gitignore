@@ -5,6 +5,7 @@ __pycache__/
 # Virtual environment
 env/
 venv/
+need_cash_env/
 
 # Byte-compiled / optimized / DLL files
 *.pyc
